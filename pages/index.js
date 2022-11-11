@@ -20,6 +20,9 @@ export default function Home() {
           Page owned by knannap@clemson.edu
         </p>
 
+<p className={styles.description}>
+          <a href="chess" className={styles.card}>Play chess</a>
+        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
